@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <title>The last of us</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>THE LAST OF US</h1>
+        </div>
+        <div class="menu">
+            <a href="#geral">VISÃO GERAL</a>
+            <a href="#novidades">NOVIDADES</a>
+            <a href="#cadastro">CADASTRE-SE</a>
+        </div>
+    </nav>
+
+    <header id="geral" class="header">
+        <div class="img-headline">
+            <img style="max-width: 100%;" src="./images/joel-header.jpg" alt="joel">
+        </div>
+        <div class="headline">
+            <h2>THE LAST OF US</h2>
+            <p>The Last of Us Part I conta a história de Joel, um sobrevivente abatido que perdeu a filha no início de
+                uma pandemia devastadora que dizimou a população e é contratado para tirar uma adolescente corajosa e
+                madura de apenas 14 anos, chamada Ellie, de uma zona de quarentena militar.</p>
+            <p>Uma experiência de gênero definitiva que mistura elementos de sobrevivência e ação para
+                contar uma história de personagens sobre uma praga moderna dizimando a humanidade. A natureza invade a
+                civilização, forçando os sobreviventes restantes a matarem por comida, armas e qualquer coisa que possam
+                achar.</p>
+        </div>
+    </header>
+
+    <section>
+
+
+        <div id="carrosel">
+
+            <img src="./images/carrosel/244621.jpg" alt="">
+
+
+            <img src="./images/carrosel/414512.jpg" alt="">
+
+
+            <img src="./images/carrosel/416109.png" alt="">
+
+
+            <img src="./images/carrosel/525415.jpg" alt="">
+
+
+            <img src="./images/carrosel/527260.png" alt="">
+
+
+            <img src="./images/carrosel/529298.png" alt="">
+
+
+            <img src="./images/carrosel/556864.jpg" alt="">
+
+
+            <img src="./images/carrosel/711797.jpg" alt="">
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id="novidades" class="novidades">
+        <div class="text-II">
+            <h2>THE LAST OF US II</h2>
+            <p>Viver em uma próspera comunidade de sobreviventes permitiu que eles tivessem paz e estabilidade, apesar
+                da
+                constante ameaça de infectados e outros sobreviventes desesperados. Quando um evento violento interrompe
+                essa paz, Ellie embarca em uma jornada implacável, em busca de justiça.</p>
+            <p>Bons vilões raramente se encaixam no que podemos chamar de "vilão". Um adversário com motivações justas e
+                intenções realmente boas é apenas isso: um oponente. No mundo de The Last of Us, da Naughty Dog, isso
+                fica bastante evidente quando conhecemos perspectivas diferentes sobre o mesmo acontecimento.</p>
+        </div>
+        <div class="logo-2">
+
+            <img style="max-width: 100%;" src="./images/carrosel-2/1124739.jpg" alt="">
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <section id="cadastro">
+        <div class="container">
+            <div class="img-cadastro">
+                <img style="max-width: 100%;" src="./images/carrosel-2/878688.jpg" alt="">
+            </div>
+            <div class="fomulario">
+                <h2>CADASTRE-SE</h2>
+
+
+                <form id="form">
+                    <!-- <label for="nome">Nome </label> -->
+                    <input id="nome" placeholder="Nome" required type="nome" />
+                    <br />
+                    <!-- <label for="email">E-mail</label> -->
+                    <input id="email" placeholder="E-mail" required type="email" />
+                    <br />
+                    <!-- <label for="senha">Senha </label> -->
+                    <input id="senha" placeholder="Senha" required type="password" />
+                    <br />
+                    <button>Cadastrar</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('#carrosel').slick({
+                infinity: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+            });
+
+
+
+
+        })
+
+    </script>
+
+
+
+    <footer class="footer">
+        <h2>&copy;Desenvolvido por Manoel</h2>
+    </footer>
+</body>
+
+
+</html>

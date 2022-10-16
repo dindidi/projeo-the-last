@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #172119;
+
+}
+
+.navbar {
+    font-family: 'Anton', sans-serif;
+
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-image: linear-gradient(to bottom, #172119, #232f23, #313e2e, #404d38, #515d42, #5c663d, #6b6d36, #7d742e, #95710f, #b36800, #d65600, #fa2c17);
+    /* background-image: linear-gradient(to top, #172119, #232f23, #313e2e, #404d38, #515d42, #5c663d, #6b6d36, #7d742e, #95710f, #b36800, #d65600, #fa2c17); */
+    /* background-image: linear-gradient(to top, #172119, #25321b, #3c4318, #5d5013, #865a16, #9d5c16, #b75b1d, #d15829, #db5123, #e5481e, #ef3d1a, #fa2c17); */
+
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.logo h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 34px;
+    color: #121816;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #fa2c17;
+}
+
+.header,
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #172119;
+
+}
+
+.headline,
+.fomulario {
+    margin-left: 5%;
+    flex: 30%;
+}
+
+.headline h2,
+.fomulario h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    padding: 0;
+    margin: 10px;
+    color: #fefee6;
+}
+
+
+.headline p {
+    color: rgb(158, 155, 155);
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.img-headline,
+.img-cadastro,
+.logo-2 {
+    border-radius: 5%;
+    padding-top: 10px;
+    flex: 50%;
+
+}
+
+
+
+.logo-2 img,
+.img-cadastro img,
+.img-headline img {
+    width: 753.25px;
+    height: 423.7px;
+    border-radius: 5%;
+}
+
+#carrosel {
+    overflow: hidden;
+
+}
+
+#carrosel img {
+    width: 100%;
+    height: 200px;
+    padding: 1px;
+
+}
+
+
+.novidades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #172119;
+
+}
+
+.text-II {
+    margin-left: 5%;
+    flex: 30%;
+}
+
+.text-II h2 {
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+    font-weight: 900;
+    font-size: 32px;
+    padding: 0;
+    margin: 10px;
+    color: #fefee6;
+}
+
+
+
+.text-II p {
+    color: rgb(158, 155, 155);
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+.logo-2 {
+    padding-top: 10px;
+    flex: 50%;
+}
+
+
+
+
+h2 {
+    font-family: 'Anton', sans-serif;
+
+    padding-top: 10px;
+    font-size: 24px;
+    color: #d65600;
+
+}
+
+
+.fomulario {
+    margin-right: 2%;
+}
+
+.fomulario h2 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+form {
+    margin-top: 40px;
+
+
+}
+
+form input {
+    border-radius: 10px;
+
+}
+
+button,
+input {
+    display: block;
+    padding: 8px;
+    width: 100%;
+
+}
+
+button {
+    background-color: #b36800;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: oblique;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+
+button:hover {
+    background-color: #d65600;
+}
+
+
+
+
+
+
+.footer {
+
+    background-image: linear-gradient(to bottom, #172119, #232f23, #313e2e, #404d38, #515d42, #5c663d, #6b6d36, #7d742e, #95710f, #b36800, #d65600, #fa2c17);
+}
+
+.footer h2 {
+    font-size: 16px;
+    text-align: center;
+    color: #121816;
+}
